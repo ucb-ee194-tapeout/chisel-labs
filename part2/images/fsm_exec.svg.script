@@ -1,0 +1,26 @@
+// https://ivanzuzak.info/noam/webapps/fsm_simulator/
+#states
+arch_design
+RTL
+verification
+#initial
+arch_design
+#accepting
+RTL
+verification
+#alphabet
+arch_spec
+confusion
+rtl_sims_failed
+rtl_pass
+verification_fail
+verification_impossible
+need_more_coverage
+#transitions
+arch_design:arch_spec>RTL
+arch_design:confusion>arch_design
+RTL:rtl_sims_failed>RTL
+RTL:rtl_pass>verification
+verification:verification_fail>RTL
+verification:verification_impossible>arch_design
+verification:need_more_coverage>verification

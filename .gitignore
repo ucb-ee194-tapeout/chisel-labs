@@ -1,0 +1,16 @@
+*.ipynb_checkpoints
+.bsp/
+.metals/
+.scala-build/
+.vscode/
+bin/
+lib/
+pyvenv.cfg
+*.fir
+.DS_Store
+chisel_nb_env/
+include/
+*/test_run_dir/
+*.json
+*.anno.json
+*.v

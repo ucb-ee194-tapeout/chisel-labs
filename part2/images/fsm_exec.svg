@@ -1,0 +1,82 @@
+<svg width="634pt" height="186pt" viewBox="0.00 0.00 633.73 185.77" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 1170px;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 181.7686)">
+<title>finite_state_machine</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-181.7686 629.7305,-181.7686 629.7305,4 -4,4"></polygon>
+<!-- RTL -->
+<g id="node1" class="node">
+<title>RTL</title>
+
+<ellipse fill="none" stroke="#000000" cx="314.0465" cy="-109.6931" rx="33.0527" ry="33.0527" class="inactiveStates"></ellipse><ellipse fill="none" stroke="#000000" cx="314.0465" cy="-109.6931" rx="29.0795" ry="29.0795" class="inactiveStates"></ellipse>
+<text text-anchor="middle" x="314.0465" y="-105.4931" font-family="Times,serif" font-size="14.00" fill="#000000">RTL</text>
+</g>
+<!-- RTL&#45;&gt;RTL -->
+<g id="edge4" class="edge">
+<title>RTL-&gt;RTL</title>
+<path fill="none" stroke="#000000" d="M293.6669,-136.0754C290.8471,-149.2326 297.6403,-160.9686 314.0465,-160.9686 325.9667,-160.9686 332.8122,-154.7733 334.5831,-146.3388"></path>
+<polygon fill="#000000" stroke="#000000" points="338.0787,-146.0207 334.4262,-136.0754 331.0795,-146.1278 338.0787,-146.0207"></polygon>
+<text text-anchor="middle" x="314.0465" y="-165.1686" font-family="Times,serif" font-size="14.00" fill="#000000">rtl_sims_failed</text>
+</g>
+<!-- verification -->
+<g id="node2" class="node">
+<title>verification</title>
+
+<ellipse fill="none" stroke="#000000" cx="565.8735" cy="-74.6931" rx="59.5927" ry="59.5927" class="inactiveStates"></ellipse><ellipse fill="none" stroke="#000000" cx="565.8735" cy="-74.6931" rx="55.5896" ry="55.5896" class="inactiveStates"></ellipse>
+<text text-anchor="middle" x="565.8735" y="-70.4931" font-family="Times,serif" font-size="14.00" fill="#000000">verification</text>
+</g>
+<!-- RTL&#45;&gt;verification -->
+<g id="edge5" class="edge">
+<title>RTL-&gt;verification</title>
+<path fill="none" stroke="#000000" d="M347.3006,-107.7479C382.4951,-105.3867 439.5782,-100.6932 488.3271,-92.6931 491.5322,-92.1671 494.8022,-91.586 498.0984,-90.9644"></path>
+<polygon fill="#000000" stroke="#000000" points="498.8997,-94.3737 508.0261,-88.9923 497.5358,-87.5078 498.8997,-94.3737"></polygon>
+<text text-anchor="middle" x="443.2352" y="-107.8931" font-family="Times,serif" font-size="14.00" fill="#000000">rtl_pass</text>
+</g>
+<!-- verification&#45;&gt;RTL -->
+<g id="edge6" class="edge">
+<title>verification-&gt;RTL</title>
+<path fill="none" stroke="#000000" d="M506.6336,-67.2185C474.2369,-64.7459 433.5968,-64.2915 398.1433,-71.8931 382.5016,-75.2468 366.2563,-81.7427 352.2623,-88.4163"></path>
+<polygon fill="#000000" stroke="#000000" points="350.3705,-85.4478 342.9689,-93.0285 353.4824,-91.7181 350.3705,-85.4478"></polygon>
+<text text-anchor="middle" x="443.2352" y="-76.8931" font-family="Times,serif" font-size="14.00" fill="#000000">verification_fail</text>
+</g>
+<!-- verification&#45;&gt;verification -->
+<g id="edge8" class="edge">
+<title>verification-&gt;verification</title>
+<path fill="none" stroke="#000000" d="M543.5025,-130.1085C545.4302,-142.8672 552.8871,-152.2394 565.8735,-152.2394 575.2074,-152.2394 581.6849,-147.3977 585.3059,-139.9368"></path>
+<polygon fill="#000000" stroke="#000000" points="588.7331,-140.692 588.2445,-130.1085 582.0264,-138.6868 588.7331,-140.692"></polygon>
+<text text-anchor="middle" x="565.8735" y="-156.4394" font-family="Times,serif" font-size="14.00" fill="#000000">need_more_coverage</text>
+</g>
+<!-- secret_node -->
+<!-- arch_design -->
+<g id="node4" class="node">
+<title>arch_design</title>
+<ellipse fill="none" stroke="#000000" cx="98.2931" cy="-57.6931" rx="57.8868" ry="57.8868" class="currentState"></ellipse>
+<text text-anchor="middle" x="98.2931" y="-53.4931" font-family="Times,serif" font-size="14.00" fill="#000000">arch_design</text>
+</g>
+<!-- secret_node&#45;&gt;arch_design -->
+<g id="edge1" class="edge">
+<title>secret_node-&gt;arch_design</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M3.8154,-57.6931C7.9796,-57.6931 18.1736,-57.6931 30.397,-57.6931"></path>
+<polygon fill="#000000" stroke="#000000" stroke-width="2" points="30.5587,-61.1932 40.5587,-57.6931 30.5587,-54.1932 30.5587,-61.1932"></polygon>
+</g>
+<!-- arch_design&#45;&gt;RTL -->
+<g id="edge2" class="edge">
+<title>arch_design-&gt;RTL</title>
+<path fill="none" stroke="#000000" d="M154.4165,-71.2197C191.0777,-80.0556 238.1896,-91.4104 271.7083,-99.4889"></path>
+<polygon fill="#000000" stroke="#000000" points="271.1059,-102.9438 281.6476,-101.8844 272.7461,-96.1387 271.1059,-102.9438"></polygon>
+<text text-anchor="middle" x="201.9679" y="-92.8931" font-family="Times,serif" font-size="14.00" fill="#000000">arch_spec</text>
+</g>
+<!-- arch_design&#45;&gt;verification -->
+<g id="edge7" class="edge">
+<title>arch_design-&gt;verification</title>
+<path fill="none" stroke="#000000" d="M166.5198,-53.9394C192.0575,-52.7064 221.3255,-51.4976 247.9497,-50.8931 354.8644,-48.4654 382.3266,-47.533 488.3271,-61.6931 494.4159,-62.5064 500.7602,-63.4355 507.082,-64.4146"></path>
+<polygon fill="#000000" stroke="#000000" points="166.0087,-50.4602 156.1934,-54.4489 166.3537,-57.4517 166.0087,-50.4602"></polygon>
+<text text-anchor="middle" x="314.0465" y="-55.8931" font-family="Times,serif" font-size="14.00" fill="#000000">verification_impossible</text>
+</g>
+<!-- arch_design&#45;&gt;arch_design -->
+<g id="edge3" class="edge">
+<title>arch_design-&gt;arch_design</title>
+<path fill="none" stroke="#000000" d="M87.0499,-123.8188C89.4092,-129.6986 93.1569,-133.3861 98.2931,-133.3861 105.9376,-133.3861 110.5064,-125.2173 111.9995,-113.8097"></path>
+<polygon fill="#000000" stroke="#000000" points="90.375,-122.6836 84.5867,-113.8097 83.5778,-124.3564 90.375,-122.6836"></polygon>
+<text text-anchor="middle" x="98.2931" y="-137.5861" font-family="Times,serif" font-size="14.00" fill="#000000">confusion</text>
+</g>
+</g>
+</svg>
