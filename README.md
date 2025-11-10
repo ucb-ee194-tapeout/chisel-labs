@@ -21,7 +21,7 @@ Lab 0: Chisel Lab for UC Berkeley's EE[194](https://www2.eecs.berkeley.edu/Cours
 * Push to your provisioned repository on GitHub Classroom by the lab due date. We will use your latest commit before (or at) the submission deadline as your final submission.
 
 ## Setup for Non-Berkeley Students
-The binder link is available here: https://mybinder.org/v2/gh/jimfangx/chisel-labs/HEAD
+The binder link is available here: https://mybinder.org/v2/gh/ucb-ee194-tapeout/chisel-labs/HEAD
 * Binder will discard any work after 10 minutes of idle time, for prolonged work, we highly suggest you [setup locally](#local-installation).
 
 ## Local Installation
