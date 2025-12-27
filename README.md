@@ -13,7 +13,7 @@ Lab 0: Chisel Lab for UC Berkeley's EE[194](https://www2.eecs.berkeley.edu/Cours
     * Resources that can get you unblocked for now: [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) & [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 * Clone your own GitHub repository that was provisioned for you by GitHub Classroom into your home folder (`~/`) on this machine.
-* Once cloned, `cd` into the lab folder, run `bInstall.sh`. This installs the Scala kernel onto your Jupyter Notebook instance.
+* Once cloned, `cd` into the lab folder, run `chmod +x bInstall.sh`, then `./bInstall.sh`. This installs the Scala kernel onto your Jupyter Notebook instance.
 * After installation, open **part1/part1.ipynb** (NOT **part0/part0.ipynb**) to get started! 
 * Push your changes as you go via the Terminal.
 
