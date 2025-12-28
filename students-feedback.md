@@ -11,3 +11,5 @@ val minValue = if (a < b) a else b
 val minValue = if a < b then a else b
 ```
 * couple things staff should check: is this upstream chisel, or just CY chisel or just chisel in these labs? iirc some CY code was updated for scala 3? or was that updating to chisel 6 from chisel 3?
+    * actually.. entire Chisel is on Scala 2... https://www.chisel-lang.org/docs/installation#java-versions 
+    * http://ucb.bar/cy/build.sbt#L6
