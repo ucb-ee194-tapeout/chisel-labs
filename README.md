@@ -25,7 +25,7 @@ The binder link is available here: https://mybinder.org/v2/gh/ucb-ee194-tapeout/
 * Binder will discard any work after 10 minutes of idle time, for prolonged work, we highly suggest you [setup locally](#local-installation).
 
 ## Local Installation
-- Binder will discard any work after 10 minutes of idle time.
+- To avoid Binder's limitation of discarding work after 10 minutes of idle time, you can set up a local development environment.
 - For local development the install script will install JupyterLab to a virtual environment assuming python3 is available and will install the Scala kernel 'Almond'.
 - To run the script run via commandline: `./install.sh`.
 - Activate the environment via `source chisel_nb_env/bin/activate`.
